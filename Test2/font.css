@@ -1,0 +1,14 @@
+@font-face{
+	font-family: dancing;
+	src:url('font/DancingScript-VariableFont_wght.ttf');
+}
+
+@font-face{
+	font-family: banger;
+	src:url('font/Bangers-Regular.ttf');
+}
+
+@font-face{
+	font-family: cookie;
+	src:url('font/Cookie-Regular.ttf');
+}
