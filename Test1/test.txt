@@ -1,0 +1,34 @@
+1.SELECT name AS STAFF_NAME FROM staffs
+
+2.SELECT DISTINCT deparment_id FROM staffs
+
+3.SELECT * from staffs ORDER BY name ASC
+
+4.SELECT * FROM staffs ORDER BY name
+  SELECT * FROM departments ORDER BY name DESC
+
+5.SELECT * FROM staffs WHERE name IN ("kay thwe","Thae Su Wai")
+
+6.SELECT deparment_id AS Admin from staffs
+
+7.SELECT * FROM staffs WHERE name LIKE "%a%"
+
+8.SELECT * FROM staffs WHERE name LIKE "%e"
+
+9.SELECT * FROM staffs WHERE salary BETWEEN '100000' AND '500000'
+
+10.SELECT * from staffs WHERE joindate = "2014-02-20"
+
+11.SELECT COUNT(name="admin") FROM `departments`
+
+12.SELECT * FROM `departments` WHERE name="manager"
+
+13.SELECT * FROM `staffs` LIMIT 5
+
+14.SELECT salary FROM staffs ORDER BY salary DESC LIMIT 3
+
+15.SELECT SUM(salary) FROM `staffs`
+
+16.SELECT * FROM staffs WHERE joindate="2016-02-20"
+
+17.SELECT * FROM `staffs` INNER JOIN bonus ON bonus.bonusdate = staffs.joindate
